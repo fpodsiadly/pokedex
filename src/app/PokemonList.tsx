@@ -87,7 +87,7 @@ export default function PokemonList() {
                     </div>
                 </div>
             ) : (
-                <ul>
+                <ul className="grid grid-cols-3 gap-4 !mt-10 !mb-10 !border border-white rounded">
                     {filteredPokemon?.map((pokemon: Pokemon & { image?: string }) => {
                         const pokemonId = pokemon.url.split('/').filter(Boolean).pop();
                         return (
