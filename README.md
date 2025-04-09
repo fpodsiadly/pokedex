@@ -1,3 +1,13 @@
+## Features
+
+- Search for Pokémon by name or ID.
+- View Pokémon details, including types and evolution chains.
+- Paginated list of Pokémon displayed in a responsive grid layout.
+- Optimized with React Query for efficient data fetching and caching.
+- Styled with modern CSS for a clean and user-friendly interface.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
